@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="289" height="697">
+   <defs>
+      <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+   </defs>
+   <polygon points="9 17 1 13 1 21"/>
+   <polygon points="17 17 9 13 9 21"/>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#input-statement"
+      xlink:title="input-statement">
+      <rect x="51" y="3" width="122" height="32"/>
+      <rect x="49" y="1" width="122" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="21">input-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#output-statement"
+      xlink:title="output-statement">
+      <rect x="51" y="47" width="132" height="32"/>
+      <rect x="49" y="45" width="132" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="65">output-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#compare-statement"
+      xlink:title="compare-statement">
+      <rect x="51" y="91" width="146" height="32"/>
+      <rect x="49" y="89" width="146" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="109">compare-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#move-statement"
+      xlink:title="move-statement">
+      <rect x="51" y="135" width="126" height="32"/>
+      <rect x="49" y="133" width="126" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="153">move-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#jump-statement"
+      xlink:title="jump-statement">
+      <rect x="51" y="179" width="122" height="32"/>
+      <rect x="49" y="177" width="122" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="197">jump-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#set-statement"
+      xlink:title="set-statement">
+      <rect x="51" y="223" width="110" height="32"/>
+      <rect x="49" y="221" width="110" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="241">set-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#arithmetic-statement"
+      xlink:title="arithmetic-statement">
+      <rect x="51" y="267" width="154" height="32"/>
+      <rect x="49" y="265" width="154" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="285">arithmetic-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#call-routine-statement"
+      xlink:title="call-routine-statement">
+      <rect x="51" y="311" width="162" height="32"/>
+      <rect x="49" y="309" width="162" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="329">call-routine-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#stop-statement"
+      xlink:title="stop-statement">
+      <rect x="51" y="355" width="118" height="32"/>
+      <rect x="49" y="353" width="118" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="373">stop-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#description-statement"
+      xlink:title="description-statement">
+      <rect x="51" y="399" width="160" height="32"/>
+      <rect x="49" y="397" width="160" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="417">description-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#define-constant-statement"
+      xlink:title="define-constant-statement">
+      <rect x="51" y="443" width="190" height="32"/>
+      <rect x="49" y="441" width="190" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="461">define-constant-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#encoding-statement"
+      xlink:title="encoding-statement">
+      <rect x="51" y="487" width="148" height="32"/>
+      <rect x="49" y="485" width="148" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="505">encoding-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#date-time-statement"
+      xlink:title="date-time-statement">
+      <rect x="51" y="531" width="152" height="32"/>
+      <rect x="49" y="529" width="152" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="549">date-time-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#format-statement"
+      xlink:title="format-statement">
+      <rect x="51" y="575" width="132" height="32"/>
+      <rect x="49" y="573" width="132" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="593">format-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#record-statement"
+      xlink:title="record-statement">
+      <rect x="51" y="619" width="130" height="32"/>
+      <rect x="49" y="617" width="130" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="637">record-statement</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#collection-statement"
+      xlink:title="collection-statement">
+      <rect x="51" y="663" width="150" height="32"/>
+      <rect x="49" y="661" width="150" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="59" y="681">collection-statement</text>
+   </a>
+   <path class="line"
+         d="m17 17 h2 m20 0 h10 m122 0 h10 m0 0 h68 m-230 0 h20 m210 0 h20 m-250 0 q10 0 10 10 m230 0 q0 -10 10 -10 m-240 10 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m132 0 h10 m0 0 h58 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m146 0 h10 m0 0 h44 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m126 0 h10 m0 0 h64 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m122 0 h10 m0 0 h68 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m110 0 h10 m0 0 h80 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m154 0 h10 m0 0 h36 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m162 0 h10 m0 0 h28 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m118 0 h10 m0 0 h72 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m160 0 h10 m0 0 h30 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m190 0 h10 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m148 0 h10 m0 0 h42 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m152 0 h10 m0 0 h38 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m132 0 h10 m0 0 h58 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m130 0 h10 m0 0 h60 m-220 -10 v20 m230 0 v-20 m-230 20 v24 m230 0 v-24 m-230 24 q0 10 10 10 m210 0 q10 0 10 -10 m-220 10 h10 m150 0 h10 m0 0 h40 m23 -660 h-3"/>
+   <polygon points="279 17 287 13 287 21"/>
+   <polygon points="279 17 271 13 271 21"/>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="245" height="301">
+   <defs>
+      <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+   </defs>
+   <polygon points="9 17 1 13 1 21"/>
+   <polygon points="17 17 9 13 9 21"/>
+   <rect x="51" y="3" width="110" height="32" rx="10"/>
+   <rect x="49"
+         y="1"
+         width="110"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="21">CONSOLE-IO</text>
+   <rect x="51" y="47" width="94" height="32" rx="10"/>
+   <rect x="49"
+         y="45"
+         width="94"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="65">ENCODING</text>
+   <rect x="51" y="91" width="90" height="32" rx="10"/>
+   <rect x="49"
+         y="89"
+         width="90"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="109">DATETIME</text>
+   <rect x="51" y="135" width="94" height="32" rx="10"/>
+   <rect x="49"
+         y="133"
+         width="94"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="153">CURRENCY</text>
+   <rect x="51" y="179" width="86" height="32" rx="10"/>
+   <rect x="49"
+         y="177"
+         width="86"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="197">RECORDS</text>
+   <rect x="51" y="223" width="118" height="32" rx="10"/>
+   <rect x="49"
+         y="221"
+         width="118"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="241">COLLECTIONS</text>
+   <rect x="51" y="267" width="146" height="32" rx="10"/>
+   <rect x="49"
+         y="265"
+         width="146"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="285">MODERN-DEVICES</text>
+   <path class="line"
+         d="m17 17 h2 m20 0 h10 m110 0 h10 m0 0 h36 m-186 0 h20 m166 0 h20 m-206 0 q10 0 10 10 m186 0 q0 -10 10 -10 m-196 10 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m94 0 h10 m0 0 h52 m-176 -10 v20 m186 0 v-20 m-186 20 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m90 0 h10 m0 0 h56 m-176 -10 v20 m186 0 v-20 m-186 20 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m94 0 h10 m0 0 h52 m-176 -10 v20 m186 0 v-20 m-186 20 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m86 0 h10 m0 0 h60 m-176 -10 v20 m186 0 v-20 m-186 20 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m118 0 h10 m0 0 h28 m-176 -10 v20 m186 0 v-20 m-186 20 v24 m186 0 v-24 m-186 24 q0 10 10 10 m166 0 q10 0 10 -10 m-176 10 h10 m146 0 h10 m23 -264 h-3"/>
+   <polygon points="235 17 243 13 243 21"/>
+   <polygon points="235 17 227 13 227 21"/>
+</svg>

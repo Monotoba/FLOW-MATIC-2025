@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="359" height="257">
+   <defs>
+      <style type="text/css">
+    @namespace "http://www.w3.org/2000/svg";
+    .line                 {fill: none; stroke: #332900; stroke-width: 1;}
+    .bold-line            {stroke: #141000; shape-rendering: crispEdges; stroke-width: 2;}
+    .thin-line            {stroke: #1F1800; shape-rendering: crispEdges}
+    .filled               {fill: #332900; stroke: none;}
+    text.terminal         {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #141000;
+                            font-weight: bold;
+                          }
+    text.nonterminal      {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1A1400;
+                            font-weight: normal;
+                          }
+    text.regexp           {font-family: Verdana, Sans-serif;
+                            font-size: 12px;
+                            fill: #1F1800;
+                            font-weight: normal;
+                          }
+    rect, circle, polygon {fill: #332900; stroke: #332900;}
+    rect.terminal         {fill: #FFDB4D; stroke: #332900; stroke-width: 1;}
+    rect.nonterminal      {fill: #FFEC9E; stroke: #332900; stroke-width: 1;}
+    rect.text             {fill: none; stroke: none;}
+    polygon.regexp        {fill: #FFF4C7; stroke: #332900; stroke-width: 1;}
+  </style>
+   </defs>
+   <polygon points="9 17 1 13 1 21"/>
+   <polygon points="17 17 9 13 9 21"/>
+   <rect x="71" y="3" width="56" height="32" rx="10"/>
+   <rect x="69"
+         y="1"
+         width="56"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="79" y="21">PATH</text>
+   <rect x="71" y="47" width="58" height="32" rx="10"/>
+   <rect x="69"
+         y="45"
+         width="58"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="79" y="65">ADDR</text>
+   <rect x="71" y="91" width="58" height="32" rx="10"/>
+   <rect x="69"
+         y="89"
+         width="58"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="79" y="109">PORT</text>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#string"
+      xlink:title="string">
+      <rect x="189" y="3" width="56" height="32"/>
+      <rect x="187" y="1" width="56" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="197" y="21">string</text>
+   </a>
+   <a xmlns:xlink="http://www.w3.org/1999/xlink"
+      xlink:href="#number"
+      xlink:title="number">
+      <rect x="189" y="47" width="68" height="32"/>
+      <rect x="187" y="45" width="68" height="32" class="nonterminal"/>
+      <text class="nonterminal" x="197" y="65">number</text>
+   </a>
+   <rect x="51" y="135" width="96" height="32" rx="10"/>
+   <rect x="49"
+         y="133"
+         width="96"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="59" y="153">PROTOCOL</text>
+   <rect x="167" y="135" width="30" height="32" rx="10"/>
+   <rect x="165"
+         y="133"
+         width="30"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="175" y="153">=</text>
+   <rect x="237" y="135" width="54" height="32" rx="10"/>
+   <rect x="235"
+         y="133"
+         width="54"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="245" y="153">HTTP</text>
+   <rect x="237" y="179" width="44" height="32" rx="10"/>
+   <rect x="235"
+         y="177"
+         width="44"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="245" y="197">FTP</text>
+   <rect x="237" y="223" width="46" height="32" rx="10"/>
+   <rect x="235"
+         y="221"
+         width="46"
+         height="32"
+         class="terminal"
+         rx="10"/>
+   <text class="terminal" x="245" y="241">SSL</text>
+   <path class="line"
+         d="m17 17 h2 m40 0 h10 m56 0 h10 m0 0 h2 m-98 0 h20 m78 0 h20 m-118 0 q10 0 10 10 m98 0 q0 -10 10 -10 m-108 10 v24 m98 0 v-24 m-98 24 q0 10 10 10 m78 0 q10 0 10 -10 m-88 10 h10 m58 0 h10 m-88 -10 v20 m98 0 v-20 m-98 20 v24 m98 0 v-24 m-98 24 q0 10 10 10 m78 0 q10 0 10 -10 m-88 10 h10 m58 0 h10 m40 -88 h10 m56 0 h10 m0 0 h12 m-108 0 h20 m88 0 h20 m-128 0 q10 0 10 10 m108 0 q0 -10 10 -10 m-118 10 v24 m108 0 v-24 m-108 24 q0 10 10 10 m88 0 q10 0 10 -10 m-98 10 h10 m68 0 h10 m20 -44 h34 m-300 0 h20 m280 0 h20 m-320 0 q10 0 10 10 m300 0 q0 -10 10 -10 m-310 10 v112 m300 0 v-112 m-300 112 q0 10 10 10 m280 0 q10 0 10 -10 m-290 10 h10 m96 0 h10 m0 0 h10 m30 0 h10 m20 0 h10 m54 0 h10 m-94 0 h20 m74 0 h20 m-114 0 q10 0 10 10 m94 0 q0 -10 10 -10 m-104 10 v24 m94 0 v-24 m-94 24 q0 10 10 10 m74 0 q10 0 10 -10 m-84 10 h10 m44 0 h10 m0 0 h10 m-84 -10 v20 m94 0 v-20 m-94 20 v24 m94 0 v-24 m-94 24 q0 10 10 10 m74 0 q10 0 10 -10 m-84 10 h10 m46 0 h10 m0 0 h8 m43 -220 h-3"/>
+   <polygon points="349 17 357 13 357 21"/>
+   <polygon points="349 17 341 13 341 21"/>
+</svg>
