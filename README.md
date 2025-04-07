@@ -22,5 +22,5 @@ This mechanism allows users to create their own extensions and integrate them in
 
 I hope you enjoy using the interpreter and find it useful as a teaching tool or for reiving the earlyy days with nostalgia!
 
-P.S.: If yyou use this and find it entertaining, please consider letting me know. 
-I find joyy in giving joy to others.
+P.S.: If you use this and find it entertaining, please consider letting me know. 
+I find joy in giving joy to others.
